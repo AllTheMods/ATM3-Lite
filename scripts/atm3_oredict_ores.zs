@@ -17,7 +17,6 @@ print(" ========================================================== ");
 	//SILVER
 	<ore:oreSilver>.addItems([	
 //		<embers:ore_silver>,
-		<techreborn:ore:13>,
 		<thermalfoundation:ore:2>
 		]);
 	recipes.addShapeless("silverconvert", <thermalfoundation:ore:2>*2, [<ore:oreSilver>, <ore:oreSilver>]);
@@ -26,7 +25,6 @@ print(" ========================================================== ");
 	//TIN
 	<ore:oreTin>.addItems([	
 //		<embers:ore_tin>,
-		<techreborn:ore2:1>,
 		<thermalfoundation:ore:1>
 		]);
 	recipes.addShapeless("tinconvert", <thermalfoundation:ore:1>*2, [<ore:oreTin>, <ore:oreTin>]);
@@ -35,7 +33,6 @@ print(" ========================================================== ");
 	//COPPER
 	<ore:oreCopper>.addItems([	
 //		<embers:ore_copper>,
-		<techreborn:ore2>,
 		<thermalfoundation:ore>
 		]);
 	recipes.addShapeless("copperconvert", <thermalfoundation:ore>*2, [<ore:oreCopper>, <ore:oreCopper>]);
@@ -44,7 +41,6 @@ print(" ========================================================== ");
 	//LEAD
 	<ore:oreLead>.addItems([	
 //		<embers:ore_lead>,
-		<techreborn:ore:12>,
 		<thermalfoundation:ore:3>
 		]);
 	recipes.addShapeless("leadconvert", <thermalfoundation:ore:3>*2, [<ore:oreLead>, <ore:oreLead>]);
@@ -61,12 +57,10 @@ print(" ========================================================== ");
 	//ALUMINUM
 	<ore:oreAluminum>.addItems([	
 //		<embers:ore_aluminum>,
-		//<techreborn:ore:4>,
 		<thermalfoundation:ore:4>
 		]);
 	<ore:oreBauxite>.addItems([	
 //		<embers:ore_aluminum>,
-		<techreborn:ore:4>,
 		<thermalfoundation:ore:4>
 		]);
 	recipes.addShapeless("aluminumconvert", <thermalfoundation:ore:4>*2, [<ore:oreAluminum>, <ore:oreAluminum>]);
@@ -74,7 +68,6 @@ print(" ========================================================== ");
 	
 	//IRIDIUM
 	<ore:oreIridium>.addItems([	
-		<techreborn:ore:1>,
 		<thermalfoundation:ore:7>
 		]);
 	recipes.addShapeless("iridiumconvert", <thermalfoundation:ore:7>*2, [<ore:oreIridium>, <ore:oreIridium>]);
@@ -118,12 +111,12 @@ print(" ========================================================== ");
 
 	
 	//DIMENSIONAL (RFTools)
-	<ore:oreDimensional>.addItems([	
-		<rftools:dimensional_shard_ore>,
-		<rftools:dimensional_shard_ore:1>,
-		<rftools:dimensional_shard_ore:2>
-	]);
-	recipes.addShapeless("dimensionalconvert", <rftools:dimensional_shard_ore>*2, [<ore:oreDimensional>, <ore:oreDimensional>]);
+	//<ore:oreDimensional>.addItems([	
+	//	<rftools:dimensional_shard_ore>,
+	//	<rftools:dimensional_shard_ore:1>,
+	//	<rftools:dimensional_shard_ore:2>
+	//]);
+	//recipes.addShapeless("dimensionalconvert", <rftools:dimensional_shard_ore>*2, [<ore:oreDimensional>, <ore:oreDimensional>]);
 
 	
 	//REDSTONE

@@ -267,7 +267,6 @@ print(" ========================================================== ");
 		<quark:vertical_stained_planks:13>, 
 		<quark:vertical_stained_planks:14>, 
 		<quark:vertical_stained_planks:15>, 
-		<techreborn:rubber_planks>, 
 		<traverse:fir_planks>
 	] as IItemStack[];
 	

@@ -17,15 +17,7 @@ print(" ================================================ ");
 
 //====== Misc Tool Conflicts ======
 //
-	recipes.remove(<techreborn:bronzespade:0>);       //conflicts with <thermalfoundation:tool.shovel_bronze:0>
-	recipes.remove(<techreborn:bronzesword:0>);       //conflicts with <thermalfoundation:tool.sword_bronze:0>
-	recipes.remove(<techreborn:bronzeaxe:0>);         //conflicts with <thermalfoundation:tool.axe_bronze:0>
-	recipes.remove(<techreborn:bronzehoe:0>);         //conflicts with <thermalfoundation:tool.hoe_bronze:0>
-	recipes.remove(<techreborn:bronzehelmet:0>);      //conflicts with <thermalfoundation:armor.helmet_bronze:0>
-	recipes.remove(<techreborn:bronzeboots:0>);       //conflicts with <thermalfoundation:armor.boots_bronze:0>
-	recipes.remove(<techreborn:bronzepickaxe:0>);     //conflicts with <thermalfoundation:tool.pickaxe_bronze:0>
-	recipes.remove(<techreborn:bronzechestplate:0>);  //conflicts with <thermalfoundation:armor.plate_bronze:0>
-	recipes.remove(<techreborn:bronzeleggings:0>);    //conflicts with <thermalfoundation:armor.legs_bronze:0>
+	
 	//recipes.remove(<embers:pickaxe_lead:0>);          //conflicts with <thermalfoundation:tool.pickaxe_lead:0>
 	//recipes.remove(<embers:pickaxe_copper:0>);        //conflicts with <thermalfoundation:tool.pickaxe_copper:0>
 	//recipes.remove(<embers:pickaxe_silver:0>);        //conflicts with <thermalfoundation:tool.pickaxe_silver:0>
@@ -68,28 +60,6 @@ print(" ================================================ ");
 		[marble, marble, marble]]);
 
 
-	
-
-//====== TechReborn Coolant/Cell Conflict ======
-//--Ord (12-JULY-2017)
-//
-	//could be worthy of a report to mod dev as it might be an oversight
-	//10k coolant cell can be crafted with the bucket of water
-	//<techreborn:part:36> versus <techreborn:dynamiccell:0>
-	
-	recipes.removeShaped(<techreborn:part:36>, 
-		[[null,	<*>,	null],
-		 [<*>,	null,	<*>	],
-		 [null,	<*>,	null]]
-	);
-	// for some reason this is removing the 10k coolant recipe that has a bucket in the center
-	// could be a CrT bug, need to re-add the recipe for now:
-	
-		recipes.addShaped("coolantcell10k", <techreborn:part:36>, 
-		[[		null,		<ore:ingotTin>,			null		],
-		 [<ore:ingotTin>,	<minecraft:bucket>,	<ore:ingotTin>	],
-		 [		null,		<ore:ingotTin>,			null		]]
-	);
 
 
 //====== Quark Iron Plate (decoration) ======
@@ -117,12 +87,6 @@ print(" ================================================ ");
 
 	recipes.remove(<actuallyadditions:block_misc:5>);	// conflicts with <chisel:block_charcoal2:1>
 
-//====== Tech Reborn / Machine Frame ======
-// - Conflicts with IC2 machines
-//--Ord (7-AUGUST-2017)
-//
-
-	recipes.remove(<techreborn:machine_frame>);	
 
 //======= Crafting Table isnt oredict ============
 // remove and create a new one
