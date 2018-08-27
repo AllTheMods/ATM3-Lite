@@ -159,70 +159,6 @@ print(" ========================================================== ");
 		<chisel:planks-spruce:12>, 
 		<chisel:planks-spruce:13>, 
 		<chisel:planks-spruce:14>, 
-		<forestry:planks.0>, 
-		<forestry:planks.0:1>, 
-		<forestry:planks.0:2>, 
-		<forestry:planks.0:3>, 
-		<forestry:planks.0:4>, 
-		<forestry:planks.0:5>, 
-		<forestry:planks.0:6>, 
-		<forestry:planks.0:7>, 
-		<forestry:planks.0:8>, 
-		<forestry:planks.0:9>, 
-		<forestry:planks.0:10>, 
-		<forestry:planks.0:11>, 
-		<forestry:planks.0:12>, 
-		<forestry:planks.0:13>, 
-		<forestry:planks.0:14>, 
-		<forestry:planks.0:15>, 
-		<forestry:planks.1>, 
-		<forestry:planks.1:1>, 
-		<forestry:planks.1:2>, 
-		<forestry:planks.1:3>, 
-		<forestry:planks.1:4>, 
-		<forestry:planks.1:5>, 
-		<forestry:planks.1:6>, 
-		<forestry:planks.1:7>, 
-		<forestry:planks.1:8>, 
-		<forestry:planks.1:9>, 
-		<forestry:planks.1:10>, 
-		<forestry:planks.1:11>, 
-		<forestry:planks.1:12>, 
-		<forestry:planks.fireproof.0>, 
-		<forestry:planks.fireproof.0:1>, 
-		<forestry:planks.fireproof.0:2>, 
-		<forestry:planks.fireproof.0:3>, 
-		<forestry:planks.fireproof.0:4>, 
-		<forestry:planks.fireproof.0:5>, 
-		<forestry:planks.fireproof.0:6>, 
-		<forestry:planks.fireproof.0:7>, 
-		<forestry:planks.fireproof.0:8>, 
-		<forestry:planks.fireproof.0:9>, 
-		<forestry:planks.fireproof.0:10>, 
-		<forestry:planks.fireproof.0:11>, 
-		<forestry:planks.fireproof.0:12>, 
-		<forestry:planks.fireproof.0:13>, 
-		<forestry:planks.fireproof.0:14>, 
-		<forestry:planks.fireproof.0:15>, 
-		<forestry:planks.fireproof.1>, 
-		<forestry:planks.fireproof.1:1>, 
-		<forestry:planks.fireproof.1:2>, 
-		<forestry:planks.fireproof.1:3>, 
-		<forestry:planks.fireproof.1:4>, 
-		<forestry:planks.fireproof.1:5>, 
-		<forestry:planks.fireproof.1:6>, 
-		<forestry:planks.fireproof.1:7>, 
-		<forestry:planks.fireproof.1:8>, 
-		<forestry:planks.fireproof.1:9>, 
-		<forestry:planks.fireproof.1:10>, 
-		<forestry:planks.fireproof.1:11>, 
-		<forestry:planks.fireproof.1:12>, 
-		<forestry:planks.vanilla.fireproof.0>, 
-		<forestry:planks.vanilla.fireproof.0:1>, 
-		<forestry:planks.vanilla.fireproof.0:2>, 
-		<forestry:planks.vanilla.fireproof.0:3>, 
-		<forestry:planks.vanilla.fireproof.0:4>, 
-		<forestry:planks.vanilla.fireproof.0:5>, 
 		<minecraft:planks>, 
 		<minecraft:planks:1>, 
 		<minecraft:planks:2>, 
@@ -425,35 +361,6 @@ print(" ========================================================== ");
 	var DoorToAdd = [
 		<minecraft:wooden_door>,
 		<traverse:fir_door>,
-		<forestry:doors.acacia>, //Desert Acacia Door
-		<forestry:doors.balsa>, //Balsa Door
-		<forestry:doors.baobab>, //Baobab Door
-		<forestry:doors.cherry>, //Cherry Door
-		<forestry:doors.chestnut>, //Chestnut Door
-		<forestry:doors.citrus>, //Citrus Door
-		<forestry:doors.cocobolo>, //Cocobolo Door
-		<forestry:doors.ebony>, //Ebony Door
-		<forestry:doors.giganteum>, //Giant Sequoia Door
-		<forestry:doors.greenheart>, //Greenheart Door
-		<forestry:doors.ipe>, //Ipe Door
-		<forestry:doors.kapok>, //Kapok Door
-		<forestry:doors.larch>, //Larch Door
-		<forestry:doors.lime>, //Lime Door
-		<forestry:doors.mahoe>, //Mahoe Door
-		<forestry:doors.mahogany>, //Mahogany Door
-		<forestry:doors.maple>, //Maple Door
-		<forestry:doors.padauk>, //Padauk Door
-		<forestry:doors.palm>, //Palm Door
-		<forestry:doors.papaya>, //Papaya Door
-		<forestry:doors.pine>, //Pine Door
-		<forestry:doors.plum>, //Plum Door
-		<forestry:doors.poplar>, //Poplar Door
-		<forestry:doors.sequoia>, //Sequoia Door
-		<forestry:doors.teak>, //Teak Door
-		<forestry:doors.walnut>, //Walnut Door
-		<forestry:doors.wenge>, //Wenge Door
-		<forestry:doors.willow>, //Willow Door
-		<forestry:doors.zebrawood>, //Zebrawood Door
 		<minecraft:acacia_door>,
 		<minecraft:jungle_door>,
 		<minecraft:birch_door>,

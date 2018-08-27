@@ -29,22 +29,14 @@ print(" ================================================ ");
 	//recipes.remove(<embers:pickaxe_bronze:0>);        //conflicts with <techreborn:bronzepickaxe:0>	
 
 	
-//====== Forestry gears redundant ======
-//------ NOTE: remove not working now becasue mezz isn't using the recipe event and CrT literally can't event
-//
-	recipes.remove(<forestry:gear_bronze>);
-	recipes.remove(<forestry:gear_copper>);
-	recipes.remove(<forestry:gear_tin>);
-
-	
 //====== Recipe tweaks ======
 //------ Mostly just due to conflicting recipe overlap
-//
-//	recipes.removeShaped(<rustic:crop_stake:0>);
-//	recipes.addShaped("cropstake", <rustic:crop_stake:0> * 3,
-//		[[null, null, planks],
-//		[null, planks, null],
-//		[planks, null, null]]);
+/*
+	recipes.removeShaped(<rustic:crop_stake:0>);
+	recipes.addShaped("cropstake", <rustic:crop_stake:0> * 3,
+		[[null, null, planks],
+		[null, planks, null],
+		[planks, null, null]]);
 
 
 	recipes.removeShaped(<stevescarts:modulecomponents:43>);
@@ -52,7 +44,7 @@ print(" ================================================ ");
 		[[strings, null, null],
 		[null, strings, null],
 		[null, null, strings]]);
-
+*/
 	recipes.removeShaped(<quark:marble:1>);
 	recipes.addShaped("marble", <quark:marble:1> * 9,
 		[[marble, marble, marble],
