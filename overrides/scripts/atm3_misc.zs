@@ -91,3 +91,14 @@ print(" ================================================ ");
 	);
 
 
+//====== Dragon Egg Recipe ======
+// - Add dragon egg so the mill and siphon can be used
+// --Fallen (27-Aug-18)
+
+	recipes.addShaped("DragonEgg", <minecraft:dragon_egg>, [
+	[<minecraft:end_rod>, <minecraft:obsidian>, <minecraft:end_rod>],
+	[<minecraft:obsidian>, <silentgems:soulgem>.withTag({sg_soul_gem: "EnderDragon"}), <minecraft:obsidian>],
+	[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]	
+	]);
+
+
