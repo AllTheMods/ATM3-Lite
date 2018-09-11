@@ -1,35 +1,19 @@
-# ATM3-Lite
+[![Logo Image](https://i.imgur.com/R3RgVCP.png)](https://minecraft.curseforge.com/members/ATMTeam/projects)
 
-All The Mods Lite 1.12
-======
-This is the official repository and issue-tracker for All The Mods 3 - Lite
-  
-Does "All The Mods" *really* contain ALL THE MODS? No, of course not.
-  
-#### Curse Links: 
-+ [![All the Mods 1](http://cf.way2muchnoise.eu/242462.svg "ATM1") All The Mods](https://mods.curse.com/modpacks/minecraft/242462-all-the-mods)  
-+ [![All the Mods 3](http://cf.way2muchnoise.eu/269708.svg "ATM3") All The Mods 3](https://mods.curse.com/modpacks/minecraft/269708-all-the-mods-3)  
-+ [![All the Mods 3 Lite](http://cf.way2muchnoise.eu/274129.svg "ATM3: Lite") All The Mods 3 Lite](https://minecraft.curseforge.com/projects/atm-3-lite)  
-+ [![All the Mods Expert Remastered](http://cf.way2muchnoise.eu/274849.svg "ATMER") All The Mods Expert Remastered](https://mods.curse.com/modpacks/minecraft/252034-all-the-mods-expert)  
-  
-Need Help?
-======
-When reporting an issue put the version number before the issue title! Such as [FULL][1.37] My game is broken! Also include any added mods you may have put in, into the description of the issue. 
- 
-You can also find us on Discord for help or just to chat as well as Reddit:   
-  
-|              |
-|:------------:|
-|<a href="https://discordapp.com/invite/rbSZNDQ"><img src="https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png" alt="Join us on Discord!"  width="200" height="68"></a>|
-|<a href="https://www.reddit.com/r/allthemods"><img src="https://www.redditstatic.com/about/assets/reddit-logo.png" alt="/r/AllTheMods on Reddit"  width="200" height="67"></a>|
-<br>
-<br>
+[![CurseForge](http://cf.way2muchnoise.eu/full_274129_downloads.svg)](https://minecraft.curseforge.com/projects/atm-3-lite) [![Discord](https://img.shields.io/discord/254530689225981953.svg?&label=discord)](https://discordapp.com/invite/rbSZNDQ) [![Subreddit](https://img.shields.io/badge/subreddit-r%2Fallthemods-red.svg)](https://reddit.com/r/allthemods) [![GitHub Contributors](https://img.shields.io/github/contributors/AllTheMods/ATM3-Lite.svg)](https://github.com/AllTheMods/ATM3-Lite/graphs/contributors) [![GitHub Issues](https://img.shields.io/github/issues/AllTheMods/ATM3-Lite.svg)](https://github.com/AllTheMods/ATM3-Lite/issues)
 
-### Money / Donation
+# All The Mods 3: Lite
+With the increasing number of mods being added each day to the ATM3 modpack we are proud to announce the Lite version!
 
-All The Mods has never been about making money, we just love playing games and making cool modpacks and contributing to the modded community. We understand that sometimes people like to "say thanks" so by request we have setup a Patreon with some perks and are considering expanding some ATM branded merchandise as well. Any money that we do get is used to "give back" such as hosting free public ATM servers   
+Intended to be a lighter version of the ATM3 pack in the same way that the ATM: Lite modpack for 1.10.2 was created, this modpack is designed not only to be resource friendly, but also add a good bit of balance to a modpack that has many mods than many would consider unbalanced.
 
-<a href="https://www.patreon.com/allthemods">
-	<img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Support us on Patreon"  width="200" height="47">
-</a>  
+Be assured that ongoing R&D and feedback from the player group will shape this pack and refine it over the short term.
 
+The Intial Version has been designed to run on just 4GB of ram. In your profile options. Set the Memory Settings to a Minimum of 4096MB
+
+Stay tuned for updates!
+
+# Money / Donations
+All The Mods has never been about making money, we just love playing games and making cool modpacks and contributing to the modded community. We understand that sometimes people like to "say thanks" so by request we have setup a Patreon with some perks and are considering expanding some ATM branded merchandise as well. Any money that we do get is used to "give back" such as hosting free public ATM servers.
+
+[![Patreon](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/allthemods)
