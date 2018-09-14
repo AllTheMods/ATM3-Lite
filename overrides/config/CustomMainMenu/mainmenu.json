@@ -1,0 +1,153 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "test:textures/gui/title/background/Alpha.png",
+            "posX" : -137,
+            "posY" : 30,
+            "width" : 512,
+            "height" : 512,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "texture" : "test:textures/gui/title/background/longbutton.png",
+            "posX" : -100,
+            "posY" : -65,
+            "width" : 200,
+            "height" : 20,
+            "alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "texture" : "test:textures/gui/title/background/longbutton.png",            
+            "posX" : -100,
+            "posY" : -42,
+            "width" : 200,
+            "height" : 20,
+            "alignment" : "center",            
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "texture" : "test:textures/gui/title/background/longbutton.png",            
+            "posX" : -100,
+            "posY" : -19,
+            "width" : 200,
+            "height" : 20,
+            "alignment" : "center",            
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "texture" : "test:textures/gui/title/background/shortbutton.png",            
+            "posX" : -100,
+            "posY" : 50,
+            "width" : 98,
+            "height" : 20,
+            "alignment" : "center",            
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "texture" : "test:textures/gui/title/background/shortbutton.png",            
+            "posX" : 2,
+            "posY" : 50,
+            "width" : 98,
+            "height" : 20,
+            "alignment" : "center",            
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+       
+		"akliz":
+        {
+            "text" : "Make a Server",
+            "texture" : "test:textures/gui/title/background/longbutton.png",            
+            "posX" : -100,
+            "posY" : 4,
+            "width" : 200,
+            "height" : 20,
+            "alignment" : "center",            
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.akliz.net/allthemods"
+            }
+		},
+		
+		"Discord":
+        {
+            "text" : "Discord",
+            "texture" : "test:textures/gui/title/background/shortbutton.png",            
+            "posX" : -100,
+            "posY" : 27,
+            "width" : 98,
+            "height" : 20,
+            "alignment" : "center",            
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/gJGaabT"
+            }
+        },
+        
+        "Reddit":
+        {
+            "text" : "Reddit",
+            "texture" : "test:textures/gui/title/background/shortbutton.png",            
+            "posX" : 2,
+            "posY" : 27,
+            "width" : 98,
+            "height" : 20,
+            "alignment" : "center",            
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.reddit.com/r/allthemods"
+            }
+        }
+    },
+    
+    "other":
+    {
+        "background":
+        {
+            "image" : "test:textures/gui/title/background/background.png",
+            "mode" : "stretch"
+            }
+        }
+    },
