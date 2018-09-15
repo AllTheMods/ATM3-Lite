@@ -101,4 +101,15 @@ print(" ================================================ ");
 	[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]	
 	]);
 
-
+//====== Jazz-up Quark Elytra dupe so it shows in JEI ======
+//
+	recipes.remove(<minecraft:elytra>.withTag({"quark:elytraDye": 0}));
+	recipes.addShapeless("Elytra", <minecraft:elytra>.withTag({"quark:elytraDye": 0}), [
+		<minecraft:elytra>.giveBack(), <quark:enderdragon_scale>
+		]);
+	<quark:enderdragon_scale>.addTooltip(
+					format.underline(format.aqua(
+					"Can be used to DUPLICATE an Elytra"
+					)));
+	mods.jei.JEI.addDescription(<quark:enderdragon_scale>, "By crafting an Elytra and a Dragon Scale together, the Dragon Scale will take the form of the Elytra","",
+															"","This does not consume nor damage the original Elytra");
