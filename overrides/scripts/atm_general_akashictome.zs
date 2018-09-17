@@ -116,6 +116,30 @@ print(" ==================================================== ");
 					"akashictome:definedMod": "industrialforegoing"
 				},
 				Damage: 0 as short
+			},
+			thaumcraft: {
+				id: "thaumcraft:thaumonomicon",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "thaumcraft"
+				},
+				Damage: 0 as short
+			},
+			embers: {
+				id: "embers:codex",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "embers"
+				},
+				Damage: 0 as short
+			},
+			rftools: {
+				id: "rftools:rftools_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "rftools"
+				},
+				Damage: 0 as short
 			}
 		}
 	}
@@ -153,7 +177,11 @@ print(" ==================================================== ");
 		<conarm:book>,
 		<integrateddynamics:on_the_dynamics_of_integration>,
 		<valkyrielib:guide>,
-		<industrialforegoing:book_manual>
+		<industrialforegoing:book_manual>,
+		<thaumcraft:thaumonomicon>,
+		<embers:codex>,
+		<rftools:rftools_manual>
+
 		] as IItemStack[];
 
 	for itemBook in addedBooks {
