@@ -79,7 +79,7 @@ Updated:
 	NetherPortalFix (went from NetherPortalFix_1.12.1-5.3.13.jar to NetherPortalFix_1.12.1-5.3.17.jar):
 	Ore Excavation (went from OreExcavation-1.4.119.jar to OreExcavation-1.4.129.jar):
 	Ore Excavation Integration (went from oeintegration-2.3.3.jar to oeintegration-2.3.4.jar):
-	p455w0rd's Library (went from p455w0rdslib-1.12-2.0.29.jar to p455w0rdslib-1.12-2.0.35.jar):
+  p455w0rd's Library (went from p455w0rdslib-1.12-2.0.29.jar to p455w0rdslib-1.12-2.0.35.jar):
 	Placebo (went from Placebo-1.12.2-1.4.0.jar to Placebo-1.12.2-1.4.1.jar):
 	Quark (went from Quark-r1.4-125.jar to Quark-r1.5-129.jar):
 	RFTools Power (went from RFToolsPower - 1.12-1.1.0 to RFToolsPower - 1.12-1.1.1):
