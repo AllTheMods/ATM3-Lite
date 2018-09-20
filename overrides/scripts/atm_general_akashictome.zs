@@ -109,7 +109,7 @@ print(" ==================================================== ");
 				},
 				Damage: 0 as short
 			},
-			foregoing: {
+			industrialforegoing: {
 				id: "industrialforegoing:book_manual",
 				Count: 1 as byte,
 				tag: {
