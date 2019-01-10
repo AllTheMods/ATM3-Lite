@@ -55,7 +55,8 @@ print(" ========================================================== ");
 
 	
 	//ALUMINUM
-	<ore:oreAluminum>.addItems([	
+	<ore:oreAluminum>.addItems([
+		<techreborn:ore:4>,
 //		<embers:ore_aluminum>,
 		<thermalfoundation:ore:4>
 		]);
