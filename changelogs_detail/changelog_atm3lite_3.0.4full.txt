@@ -1,0 +1,3 @@
+All the Mods 3 Lite v3.0.3 to All the Mods 3 Lite v3.0.4
+
+* Generated using https://github.com/TheRandomLabs/ChangelogGenerator (1.11.1)
