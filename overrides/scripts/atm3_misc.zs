@@ -113,3 +113,7 @@ print(" ================================================ ");
 					)));
 	mods.jei.JEI.addDescription(<quark:enderdragon_scale>, "By crafting an Elytra and a Dragon Scale together, the Dragon Scale will take the form of the Elytra","",
 															"","This does not consume nor damage the original Elytra");
+
+//====== Aluminum/Bauxite ======
+//
+	recipes.addShapeless("AluminumDust", <thermalfoundation:material:68>,[<techreborn:dust:5>]);
